@@ -1,0 +1,37 @@
+body {
+    min-width: 230px;
+    margin: 0;
+    background-color: #f7f7f7 !important;
+    color: #333;
+}
+
+#status {
+    list-style: none;
+    padding: 0;
+    border: 1px solid lightgray;
+    margin: 8px;
+    border-radius: 4px;
+}
+
+#status li {
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+    transition-duration: 300ms;
+    user-select: none;
+    border-bottom: 1px solid lightgray;
+}
+
+#status li:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-color: transparent;
+}
+
+#status li p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#status li p span {
+    font-weight: 600;
+}
